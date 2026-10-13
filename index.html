@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Painel CRM — o CRM feito para consultores de consórcio</title>
+<meta name="description" content="Pipeline em Kanban, comissões, agenda, conversas e lembretes em um só painel, feito para consultores de consórcio.">
+<meta property="og:title" content="Painel CRM para consultores de consórcio">
+<meta property="og:description" content="Cada lead no lugar certo. Cada venda, acompanhada.">
+<meta property="og:image" content="img/dashboard.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&display=swap">
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#F5F4EF;color:#14211D;font-family:'DM Sans',system-ui,sans-serif}
+a{color:inherit;text-decoration:none}
+a.btn:hover{filter:brightness(1.08)}
+a.nav:hover{color:#0E6B53}
+a:focus-visible{outline:3px solid #E8A33D;outline-offset:3px}
+h1,h2,h3{font-family:'Bricolage Grotesque','DM Sans',sans-serif}
+img{max-width:100%}
+@media (max-width:640px){
+  .h1{font-size:40px !important}
+  .h2{font-size:32px !important}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div style="width:100%;overflow:hidden">
+
+<!-- NAV -->
+<div style="max-width:1200px;margin:0 auto;padding:22px 24px;box-sizing:border-box;display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between">
+  <div style="display:flex;align-items:center;gap:10px">
+    <div style="width:34px;height:34px;border-radius:9px;background:#0E6B53;display:flex;align-items:center;justify-content:center">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#F5F4EF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h5v12H4zM10 6h5v8h-5zM16 6h4v5h-4z"/></svg>
+    </div>
+    <span style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:20px;letter-spacing:-0.01em">Painel CRM</span>
+  </div>
+  <div style="display:flex;flex-wrap:wrap;gap:22px;align-items:center;font-size:15px;font-weight:500">
+    <a class="nav" href="#recursos">Recursos</a>
+    <a class="nav" href="#telas">Telas</a>
+    <a class="nav" href="#planos">Planos</a>
+    <a class="nav" href="#duvidas">Dúvidas</a>
+    <a class="btn" href="https://wa.me/55[SEU-WHATSAPP]" style="background:#14211D;color:#F5F4EF;padding:12px 20px;border-radius:999px;font-weight:700;min-height:20px">Quero uma demonstração</a>
+  </div>
+</div>
+
+<!-- HERO -->
+<div style="max-width:1200px;margin:0 auto;padding:48px 24px 24px;box-sizing:border-box;display:flex;flex-wrap:wrap;gap:48px;align-items:center">
+  <div style="flex:1 1 460px;min-width:0">
+    <div style="display:inline-block;background:#DCEBE3;color:#0A4F3D;font-weight:700;font-size:13px;padding:7px 14px;border-radius:999px;letter-spacing:.02em">Feito para consultores de consórcio</div>
+    <h1 class="h1" style="margin:22px 0 0;font-size:62px;line-height:1.02;letter-spacing:-0.03em;font-weight:800">Cada lead no lugar certo. Cada venda, acompanhada.</h1>
+    <p style="margin:22px 0 0;font-size:19px;line-height:1.55;color:#42524D;max-width:520px">Um CRM que fala a língua do consórcio: pipeline em Kanban, comissões calculadas, agenda, conversas e lembretes. Tudo em um só painel, no celular ou no computador.</p>
+    <div style="margin-top:32px;display:flex;flex-wrap:wrap;gap:14px;align-items:center">
+      <a class="btn" href="https://wa.me/55[SEU-WHATSAPP]" style="background:#0E6B53;color:#fff;padding:16px 28px;border-radius:999px;font-weight:700;font-size:17px">Falar no WhatsApp</a>
+      <a class="btn" href="#telas" style="border:2px solid #14211D;padding:14px 26px;border-radius:999px;font-weight:700;font-size:17px">Ver o painel por dentro</a>
+    </div>
+    <div style="margin-top:22px;font-size:14px;color:#5B6B66">Teste antes de decidir. [CONDIÇÃO DO TESTE GRÁTIS]</div>
+  </div>
+  <div style="flex:1 1 520px;min-width:0">
+    <div style="background:#14211D;border-radius:18px;padding:10px;box-shadow:0 30px 60px -25px rgba(20,33,29,.55)">
+      <img loading="lazy" width="1440" height="900" src="img/dashboard.jpg" alt="Dashboard do Painel CRM com indicadores de vendas" style="display:block;width:100%;height:auto;border-radius:10px">
+    </div>
+    <div style="margin-top:10px;font-size:12px;color:#5B6B66;text-align:right">Imagem ilustrativa com dados de demonstração.</div>
+  </div>
+</div>
+
+<!-- DORES -->
+<div style="background:#14211D;color:#F5F4EF;margin-top:56px">
+  <div style="max-width:1200px;margin:0 auto;padding:72px 24px;box-sizing:border-box">
+    <h2 class="h2" style="margin:0;font-size:44px;line-height:1.1;letter-spacing:-0.02em;max-width:720px">Planilha, caderno e WhatsApp misturados custam vendas.</h2>
+    <div style="margin-top:40px;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px">
+      <div style="border-top:3px solid #E8A33D;padding-top:18px">
+        <h3 style="margin:0;font-size:21px">O retorno que ficou para depois</h3>
+        <p style="margin:10px 0 0;color:#B9C7C1;line-height:1.55">Sem lembrete, o cliente quente esfria. O painel avisa na hora certa, até no celular.</p>
+      </div>
+      <div style="border-top:3px solid #E8A33D;padding-top:18px">
+        <h3 style="margin:0;font-size:21px">Comissão feita de cabeça</h3>
+        <p style="margin:10px 0 0;color:#B9C7C1;line-height:1.55">Regras por administradora, parcelas e estornos num só lugar, sem conta na calculadora.</p>
+      </div>
+      <div style="border-top:3px solid #E8A33D;padding-top:18px">
+        <h3 style="margin:0;font-size:21px">Sem saber onde cada lead está</h3>
+        <p style="margin:10px 0 0;color:#B9C7C1;line-height:1.55">O Kanban mostra cada etapa do funil e o valor que está em jogo em cada uma.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RECURSOS -->
+<div id="recursos" style="max-width:1200px;margin:0 auto;padding:88px 24px 24px;box-sizing:border-box">
+  <div style="font-weight:700;color:#0E6B53;font-size:14px;letter-spacing:.08em">RECURSOS</div>
+  <h2 class="h2" style="margin:10px 0 0;font-size:44px;line-height:1.08;letter-spacing:-0.02em;max-width:760px">Tudo o que o consultor usa no dia a dia</h2>
+  <div style="margin-top:44px;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px">
+    <div style="background:#fff;border-radius:16px;padding:28px;border:1px solid #E3E1D8">
+      <div style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:15px;color:#E8A33D;background:#14211D;display:inline-block;padding:4px 10px;border-radius:8px">01</div>
+      <h3 style="margin:16px 0 0;font-size:23px">Pipeline em Kanban</h3>
+      <p style="margin:10px 0 0;color:#42524D;line-height:1.55">Arraste o lead entre as etapas, veja o total por coluna e filtre por vendedor, produto ou origem.</p>
+    </div>
+    <div style="background:#fff;border-radius:16px;padding:28px;border:1px solid #E3E1D8">
+      <div style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:15px;color:#E8A33D;background:#14211D;display:inline-block;padding:4px 10px;border-radius:8px">02</div>
+      <h3 style="margin:16px 0 0;font-size:23px">Comissões automáticas</h3>
+      <p style="margin:10px 0 0;color:#42524D;line-height:1.55">Cadastre as regras uma vez. O painel calcula o que cada venda rende e acompanha os recebimentos.</p>
+    </div>
+    <div style="background:#fff;border-radius:16px;padding:28px;border:1px solid #E3E1D8">
+      <div style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:15px;color:#E8A33D;background:#14211D;display:inline-block;padding:4px 10px;border-radius:8px">03</div>
+      <h3 style="margin:16px 0 0;font-size:23px">Conversas no mesmo lugar</h3>
+      <p style="margin:10px 0 0;color:#42524D;line-height:1.55">WhatsApp e Instagram ligados ao cadastro do cliente, com todo o histórico à mão. [Exige conta Meta configurada]</p>
+    </div>
+    <div style="background:#fff;border-radius:16px;padding:28px;border:1px solid #E3E1D8">
+      <div style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:15px;color:#E8A33D;background:#14211D;display:inline-block;padding:4px 10px;border-radius:8px">04</div>
+      <h3 style="margin:16px 0 0;font-size:23px">Agenda e lembretes</h3>
+      <p style="margin:10px 0 0;color:#42524D;line-height:1.55">Tarefas com data, integração com o Google Agenda e notificações no celular para não esquecer nenhum retorno.</p>
+    </div>
+    <div style="background:#fff;border-radius:16px;padding:28px;border:1px solid #E3E1D8">
+      <div style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:15px;color:#E8A33D;background:#14211D;display:inline-block;padding:4px 10px;border-radius:8px">05</div>
+      <h3 style="margin:16px 0 0;font-size:23px">Equipe e relatórios</h3>
+      <p style="margin:10px 0 0;color:#42524D;line-height:1.55">Cada pessoa com seu acesso, metas e ranking. O gestor enxerga o time inteiro em relatórios claros.</p>
+    </div>
+    <div style="background:#fff;border-radius:16px;padding:28px;border:1px solid #E3E1D8">
+      <div style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:15px;color:#E8A33D;background:#14211D;display:inline-block;padding:4px 10px;border-radius:8px">06</div>
+      <h3 style="margin:16px 0 0;font-size:23px">Assistente com IA</h3>
+      <p style="margin:10px 0 0;color:#42524D;line-height:1.55">Tire dúvidas de uso e receba sugestões de mensagem e de próxima tarefa. Você ainda pode dar um nome para ele.</p>
+    </div>
+  </div>
+</div>
+
+<!-- TELAS -->
+<div id="telas" style="max-width:1200px;margin:0 auto;padding:88px 24px 24px;box-sizing:border-box">
+  <div style="font-weight:700;color:#0E6B53;font-size:14px;letter-spacing:.08em">O PAINEL POR DENTRO</div>
+  <h2 class="h2" style="margin:10px 0 0;font-size:44px;line-height:1.08;letter-spacing:-0.02em;max-width:760px">Simples de usar desde o primeiro acesso</h2>
+
+  <div style="margin-top:48px;display:flex;flex-wrap:wrap;gap:40px;align-items:center">
+    <div style="flex:1 1 320px;min-width:0">
+      <h3 style="margin:0;font-size:30px;letter-spacing:-0.01em">Funil completo, de ponta a ponta</h3>
+      <p style="margin:14px 0 0;color:#42524D;line-height:1.6;font-size:17px">Veja onde está cada negociação, quanto dinheiro há em cada etapa e o que precisa de atenção hoje.</p>
+    </div>
+    <div style="flex:2 1 520px;min-width:0;background:#14211D;border-radius:16px;padding:8px"><img loading="lazy" width="1440" height="900" src="img/pipeline.jpg" alt="Pipeline Kanban com leads por etapa" style="display:block;width:100%;height:auto;border-radius:9px"></div>
+  </div>
+
+  <div style="margin-top:72px;display:flex;flex-wrap:wrap-reverse;gap:40px;align-items:center">
+    <div style="flex:2 1 520px;min-width:0;background:#14211D;border-radius:16px;padding:8px"><img loading="lazy" width="1440" height="900" src="img/comissoes.jpg" alt="Tela de comissões" style="display:block;width:100%;height:auto;border-radius:9px"></div>
+    <div style="flex:1 1 320px;min-width:0">
+      <h3 style="margin:0;font-size:30px;letter-spacing:-0.01em">Saiba quanto vai receber</h3>
+      <p style="margin:14px 0 0;color:#42524D;line-height:1.6;font-size:17px">Comissões por venda, por mês e por situação. Chega de descobrir no fim do mês que algo ficou de fora.</p>
+    </div>
+  </div>
+
+  <div style="margin-top:72px;display:flex;flex-wrap:wrap;gap:40px;align-items:center">
+    <div style="flex:1 1 320px;min-width:0">
+      <h3 style="margin:0;font-size:30px;letter-spacing:-0.01em">Conversas ligadas ao cliente</h3>
+      <p style="margin:14px 0 0;color:#42524D;line-height:1.6;font-size:17px">O histórico de mensagens fica junto do cadastro, para qualquer pessoa do time retomar de onde parou.</p>
+    </div>
+    <div style="flex:2 1 520px;min-width:0;background:#14211D;border-radius:16px;padding:8px"><img loading="lazy" width="1440" height="900" src="img/conversas.jpg" alt="Tela de conversas com histórico do cliente" style="display:block;width:100%;height:auto;border-radius:9px"></div>
+  </div>
+
+  <div style="margin-top:72px;display:flex;flex-wrap:wrap-reverse;gap:40px;align-items:center">
+    <div style="flex:2 1 520px;min-width:0;background:#14211D;border-radius:16px;padding:8px"><img loading="lazy" width="1440" height="900" src="img/relatorios.jpg" alt="Relatórios de desempenho" style="display:block;width:100%;height:auto;border-radius:9px"></div>
+    <div style="flex:1 1 320px;min-width:0">
+      <h3 style="margin:0;font-size:30px;letter-spacing:-0.01em">Números que ajudam a decidir</h3>
+      <p style="margin:14px 0 0;color:#42524D;line-height:1.6;font-size:17px">Relatórios de desempenho para o consultor e para o gestor acompanharem metas e resultados.</p>
+    </div>
+  </div>
+  <div style="margin-top:18px;font-size:12px;color:#5B6B66">Todas as telas mostram dados fictícios de demonstração.</div>
+</div>
+
+<!-- COMO COMEÇAR -->
+<div style="background:#DCEBE3;margin-top:88px">
+  <div style="max-width:1200px;margin:0 auto;padding:72px 24px;box-sizing:border-box">
+    <h2 class="h2" style="margin:0;font-size:44px;letter-spacing:-0.02em">Comece em três passos</h2>
+    <div style="margin-top:36px;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px">
+      <div><div style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:56px;color:#0E6B53;line-height:1">1</div><h3 style="margin:10px 0 0;font-size:22px">Crie sua conta</h3><p style="margin:8px 0 0;color:#2F4A41;line-height:1.55">Entre com e-mail e senha ou com a sua conta Google.</p></div>
+      <div><div style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:56px;color:#0E6B53;line-height:1">2</div><h3 style="margin:10px 0 0;font-size:22px">Traga seus leads</h3><p style="margin:8px 0 0;color:#2F4A41;line-height:1.55">Importe sua planilha em poucos cliques ou cadastre um a um.</p></div>
+      <div><div style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:56px;color:#0E6B53;line-height:1">3</div><h3 style="margin:10px 0 0;font-size:22px">Venda com organização</h3><p style="margin:8px 0 0;color:#2F4A41;line-height:1.55">Acompanhe o funil, os retornos e as comissões todo dia.</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- PLANOS -->
+<div id="planos" style="max-width:1200px;margin:0 auto;padding:88px 24px 24px;box-sizing:border-box">
+  <div style="font-weight:700;color:#0E6B53;font-size:14px;letter-spacing:.08em">PLANOS</div>
+  <h2 class="h2" style="margin:10px 0 0;font-size:44px;line-height:1.08;letter-spacing:-0.02em">Um valor simples por pessoa</h2>
+  <div style="margin-top:40px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;align-items:stretch">
+    <div style="background:#fff;border:1px solid #E3E1D8;border-radius:18px;padding:32px;display:flex;flex-direction:column;gap:14px">
+      <div style="font-weight:700;font-size:15px;color:#5B6B66">INDIVIDUAL</div>
+      <div style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:44px">R$ [VALOR]<span style="font-size:16px;font-weight:500;color:#5B6B66">/mês</span></div>
+      <div style="color:#42524D;line-height:1.7">Pipeline, agenda e comissões<br>Importação e exportação<br>Backup dos seus dados</div>
+      <a class="btn" href="https://wa.me/55[SEU-WHATSAPP]" style="margin-top:auto;text-align:center;border:2px solid #14211D;border-radius:999px;padding:13px;font-weight:700">Quero este plano</a>
+    </div>
+    <div style="background:#14211D;color:#F5F4EF;border-radius:18px;padding:32px;display:flex;flex-direction:column;gap:14px">
+      <div style="font-weight:700;font-size:15px;color:#E8A33D">EQUIPE · MAIS ESCOLHIDO</div>
+      <div style="font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:44px">R$ [VALOR]<span style="font-size:16px;font-weight:500;color:#B9C7C1">/pessoa/mês</span></div>
+      <div style="color:#D6E0DB;line-height:1.7">Tudo do Individual<br>Gestão de equipe, metas e ranking<br>Conversas por WhatsApp e Instagram<br>Assistente com IA</div>
+      <a class="btn" href="https://wa.me/55[SEU-WHATSAPP]" style="margin-top:auto;text-align:center;background:#E8A33D;color:#14211D;border-radius:999px;padding:15px;font-weight:700">Quero este plano</a>
+    </div>
+  </div>
+  <div style="margin-top:16px;font-size:13px;color:#5B6B66">Defina os valores e o que cada plano inclui antes de publicar.</div>
+</div>
+
+<!-- DÚVIDAS -->
+<div id="duvidas" style="max-width:880px;margin:0 auto;padding:88px 24px 24px;box-sizing:border-box">
+  <h2 class="h2" style="margin:0;font-size:44px;letter-spacing:-0.02em">Dúvidas frequentes</h2>
+  <div style="margin-top:28px;border-top:1px solid #D5D3C9">
+    <div style="padding:22px 0;border-bottom:1px solid #D5D3C9"><h3 style="margin:0;font-size:20px">Funciona no celular?</h3><p style="margin:8px 0 0;color:#42524D;line-height:1.6">Sim. O painel funciona no navegador do celular e do computador e pode ser instalado na tela inicial.</p></div>
+    <div style="padding:22px 0;border-bottom:1px solid #D5D3C9"><h3 style="margin:0;font-size:20px">Posso trazer minha planilha atual?</h3><p style="margin:8px 0 0;color:#42524D;line-height:1.6">Pode. Há importação de planilhas e exportação dos seus dados quando quiser.</p></div>
+    <div style="padding:22px 0;border-bottom:1px solid #D5D3C9"><h3 style="margin:0;font-size:20px">E a segurança dos dados dos clientes?</h3><p style="margin:8px 0 0;color:#42524D;line-height:1.6">Cada pessoa acessa com login próprio, os dados ficam em banco de dados em nuvem e há política de privacidade e backup. [Detalhar conforme a LGPD]</p></div>
+    <div style="padding:22px 0;border-bottom:1px solid #D5D3C9"><h3 style="margin:0;font-size:20px">Preciso pagar pela IA e pelo WhatsApp?</h3><p style="margin:8px 0 0;color:#42524D;line-height:1.6">Esses recursos são opcionais e dependem de contas e chaves de serviços externos. [Explicar o que está incluso no plano]</p></div>
+  </div>
+</div>
+
+<!-- CTA FINAL -->
+<div style="max-width:1200px;margin:88px auto 0;padding:0 24px;box-sizing:border-box">
+  <div style="background:#0E6B53;color:#fff;border-radius:24px;padding:64px 32px;text-align:center">
+    <h2 class="h2" style="margin:0 auto;font-size:44px;line-height:1.08;letter-spacing:-0.02em;max-width:720px">Pronto para organizar suas vendas de consórcio?</h2>
+    <p style="margin:18px auto 0;font-size:18px;color:#CFE6DC;max-width:560px;line-height:1.55">Chame no WhatsApp e veja o painel funcionando com os seus próprios números.</p>
+    <a class="btn" href="https://wa.me/55[SEU-WHATSAPP]" style="display:inline-block;margin-top:30px;background:#E8A33D;color:#14211D;padding:17px 34px;border-radius:999px;font-weight:700;font-size:18px">Falar no WhatsApp</a>
+  </div>
+</div>
+
+<!-- RODAPÉ -->
+<div style="max-width:1200px;margin:0 auto;padding:40px 24px 48px;box-sizing:border-box;display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;font-size:14px;color:#5B6B66">
+  <div>Painel CRM · [SEU NOME / EMPRESA] · [SEU-EMAIL-DE-CONTATO]</div>
+  <div style="display:flex;gap:18px"><a href="https://crm-consorcio-co0i.onrender.com/privacidade.html">Privacidade</a><a href="https://crm-consorcio-co0i.onrender.com/termos.html">Termos de uso</a></div>
+</div>
+
+</div>
+</body>
+</html>
